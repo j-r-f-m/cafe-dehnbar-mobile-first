@@ -2,14 +2,6 @@
    General
    ================ */
 
-img {
-    height: 150%;
-}
-
-p {
-    margin: 0;
-}
-
 /* ================
    Typography 
    ================ */
@@ -18,31 +10,13 @@ p {
     Layout 
     ================ */
 
-main {
-    display: grid;
-    grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr ;
-    grid-template-columns: 1fr;
-    
-    grid-template-areas: 
-        "nav" 
-        "intro";
-
-}
-
-
 nav {
     background: #BEEF9E;
-    /* grid-area: nav; */
-    grid-area: nav;
 }
 
-.intro {
-    grid-area: intro;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
+.intro-pic {
+    width: 100%;
 }
-
 
 /* ================
 Navigation
