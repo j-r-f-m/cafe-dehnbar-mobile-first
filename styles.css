@@ -2,6 +2,14 @@
    General
    ================ */
 
+:root {
+    --light-red: #F3CDBD;
+    --red: #BF785E;
+    --dark-red: #723A36;
+    --blue: #6195A8;
+    --green: #726040;
+}
+
 /* ================
    Typography 
    ================ */
