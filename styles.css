@@ -15,17 +15,40 @@
    ================ */
 
 /* ================
+   Navigation
+   ================ */
+
+.navbar {
+    background: var(--red);
+}
+
+/* ================
     Layout 
     ================ */
-
-nav {
-    background: #BEEF9E;
-}
 
 .intro-pic {
     width: 100%;
 }
 
-/* ================
-Navigation
-================ */
+#menu {
+    background-image: url("images/menu_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.menu-drink-food {
+    background-color: rgb(114, 96, 64, 0.5);
+    color: white;
+}
+
+.coffee {
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+}
+
+.food {
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+}
+
+
