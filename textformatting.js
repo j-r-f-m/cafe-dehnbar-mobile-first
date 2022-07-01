@@ -1,0 +1,3 @@
+var textForDrinkMenu = 'Heißgetränke\nEspresso\nEspresso,&nbsp;dopio\nCappuccino\nMandel,&nbsp;Hafer,&nbsp;Soja\nLatte&nbsp;Macchiato\nCafé Crema\nHeiße&nbsp;Schokolade\n' +
+'Chai Latte\nVanille,&nbsp;Karamell,&nbsp;2&nbsp;Hausmischungen\nChai&nbsp;Classic\nMate&nbsp;Classic\nIngwertee\nHonig,&nbsp;Agavendicksaft,&nbsp;ungesüßt\nDiverse&nbsp;Tees\nKräuterbeet, Affentanz, Wachmacher, Schlafmütze';
+document.getElementById('text-for-drink-menu').innerHTML = textForDrinkMenu;
