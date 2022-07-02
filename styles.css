@@ -1,0 +1,67 @@
+
+/* ================
+   General
+   ================ */
+
+:root {
+    --light-red: #F3CDBD;
+    --red: #BF785E;
+    --dark-red: #723A36;
+    --blue: #6195A8;
+    --green: #726040;
+}
+
+/* ================
+   Typography 
+   ================ */
+
+/* ================
+   Navigation
+   ================ */
+
+.navbar {
+    background: var(--red);
+}
+
+/* ================
+    Layout 
+    ================ */
+
+.intro-pic {
+    width: 100%;
+}
+
+#menu {
+    background-image: url("images/menu_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.menu-drink-food {
+    background-color: rgb(114, 96, 64, 0.5);
+    color: var(--light-red);
+}
+
+#text-for-drink-menu {
+    
+}
+
+.coffee {
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+}
+
+.food {
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+}
+
+/* ================
+    Footer 
+    ================ */
+
+footer {
+    background-color: var(--red);
+}
+
+
