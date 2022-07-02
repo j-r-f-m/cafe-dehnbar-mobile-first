@@ -41,6 +41,10 @@
     color: var(--light-red);
 }
 
+#text-for-drink-menu {
+    
+}
+
 .coffee {
     background-image: url("images/coffee.jpg");
     background-size: cover;
