@@ -21,6 +21,11 @@
 
 .navbar {
     background: var(--red);
+    color: var(--dark-red) !important;
+}
+
+.navbar-nav a {
+    color: var(--dark-red) !important;
 }
 
 /* ================
