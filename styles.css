@@ -22,6 +22,7 @@
 .navbar {
     background: var(--red);
     color: var(--dark-red) !important;
+    height: 3rem;
 }
 
 .navbar-nav a {
@@ -35,12 +36,17 @@
 #home {
     background-image: url("images/home_background.jpg");
     background-color: #cccccc;
-    height: auto;
+    height: calc(100vh - 3rem);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 
 .carousel {
@@ -59,7 +65,7 @@
 #menu {
     background-image: url("images/menu_background.jpg");
     background-color: #cccccc;
-    height: auto;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +104,7 @@
 #team {
     background-image: url("images/team_background.jpg");
     background-color: #cccccc;
-    height: auto;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
