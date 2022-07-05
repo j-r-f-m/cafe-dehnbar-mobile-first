@@ -23,12 +23,16 @@
     color: var(--dark-red) !important;
 }
 
-.navbar-nav a {
+.navbar-light .navbar-brand {
+    color: var(--dark-red) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
     color: var(--dark-red) !important;
 }
 
 /* ================
-    Layout 
+    Layout Home
     ================ */
 
 #home {
@@ -41,7 +45,6 @@
     position: relative;
 }
 
-
 .carousel {
     /* control size of slidehow */
     width: 70%;
@@ -49,6 +52,10 @@
     margin: auto;
 
 }
+
+/* ================
+    Layout Menu
+    ================ */
 
 #menu {
     background-image: url("images/menu_background.jpg");
@@ -58,19 +65,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
-    /* 220703_MoJ: Hintergrund angepasst um overflow zu verhindern, 
-    alten code habe ich drin gelassen falls du es wieder ändern willst */
-
-    /* background-image: url("images/menu_background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%; */
-}
-
-@media only screen and (max-width: 540px) {
-    .desktop-width {
-        display: none;
-    }
 }
 
 .menu-drink-food {
@@ -99,6 +93,10 @@
     position: relative;
 }
 
+/* ================
+    Layout Team
+    ================ */
+
 #team {
     background-image: url("images/team_background.jpg");
     background-color: #cccccc;
@@ -111,7 +109,6 @@
 
 .card {
     background-color: var(--green);
-
 }
 
 /* .card-img-top {
