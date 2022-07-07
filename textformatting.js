@@ -9,3 +9,15 @@ var textForFoodMenu = '<b>Essen</b><br>Energy Ball (Brownie, Cookie-Dough, Match
 'Crêpes herzhaft (Tomate-Rosmarin, Kürbis-Humus-Linsen, Rote Beete-Spinat-Walnuss, Karotte-Zucchini-Sonnenbl.Kerne (Toppings: Salat, Käse (vegan), Rucola))<br>' +
 'Müslivariationen (Morgens, nach Bedarf)<br>Smoothies (Mittags-abends, nach Bedarf)';
 document.getElementById('text-for-food-menu').innerHTML = textForFoodMenu;
+
+var textForDome = "I am Dome";
+document.getElementById('text-for-dome').innerHTML = textForDome;
+
+var textForDaniel = "I am Daniel";
+document.getElementById('text-for-daniel').innerHTML = textForDaniel;
+
+var textForShukky = "I am Shukky";
+document.getElementById('text-for-shukky').innerHTML = textForShukky;
+
+var textForKatti = "I am Katti";
+document.getElementById('text-for-katti').innerHTML = textForKatti;
