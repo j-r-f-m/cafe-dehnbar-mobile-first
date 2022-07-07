@@ -10,6 +10,10 @@
     --green: #726040;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ================
    Typography 
    ================ */
@@ -130,4 +134,12 @@
 
 footer {
     background-color: var(--red);
+    height: 50px;
+    color: var(--dark-red);
+    padding: 0.5rem 1rem;
+}
+
+.contact-icons {
+    width: 24px;
+    height: 24px;
 }
