@@ -175,6 +175,7 @@ footer a {
 
 footer a:hover {
     color: var(--blue);
+    text-decoration: none;
 }
 
 .align {
