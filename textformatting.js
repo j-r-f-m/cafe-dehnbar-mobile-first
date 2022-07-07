@@ -10,14 +10,19 @@ var textForFoodMenu = '<b>Essen</b><br>Energy Ball (Brownie, Cookie-Dough, Match
 'Müslivariationen (Morgens, nach Bedarf)<br>Smoothies (Mittags-abends, nach Bedarf)';
 document.getElementById('text-for-food-menu').innerHTML = textForFoodMenu;
 
-var textForDome = "I am Dome";
+var textForDome = "Ich werde dir gern den Kaffee deiner Wahl zubereiten und dich mit frechen Sprüchen bei Laune halten.";
 document.getElementById('text-for-dome').innerHTML = textForDome;
 
-var textForDaniel = "I am Daniel";
+var textForDaniel = "Herr Daniel Bleicher (30) hat die modulare Küche geplant und umgesetzt. Das praktische System aus" +
+"Holz ist für den häufigen Auf- und Abbau ausgelegt. Ferner hat der Dipl. Umweltingenieur das Beleuchtungs-" +
+"und Wasserkonzept entwickelt und bringt ein breites Fachwissen in diesen Bereichen mit.";
 document.getElementById('text-for-daniel').innerHTML = textForDaniel;
 
-var textForShukky = "I am Shukky";
+var textForShukky = "Herr Daniel Schulkowsky (32) agiert als Barista und Content Creator. Der gelernte Zahntechniker ist begeisterter" +
+"Hobby-Fotograf und bringt enorme Kompetenzen im so wichtigen Bereich der sozialen Medien mit.";
 document.getElementById('text-for-shukky').innerHTML = textForShukky;
 
-var textForKatti = "I am Katti";
-document.getElementById('text-for-katti').innerHTML = textForKatti;
+var textForKathi = "Frau Katharina Steiner (34) ist eine Expertin im Bereich der Nachhaltigkeit und der Vermarktung dessen." +
+"Dank der mehrjährigen Erfahrung im Bereich des Online-Marketings ist eine langfristige sowie zeitgemäße Ausrichtung des Cafés möglich." +
+"Ferner gilt sie als Profi der veganen Küche";
+document.getElementById('text-for-kathi').innerHTML = textForKathi;
