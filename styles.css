@@ -67,7 +67,8 @@ html {
 
 .carousel-item p {
     color: var(--light-red);
-    background-color: var(--blue);
+    background-color: rgb(114, 96, 64, 0.7);
+    border-radius: 4px;
 }
 
 .carousel-indicators [data-bs-target] {
