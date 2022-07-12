@@ -171,10 +171,6 @@ html {
     color: var(--light-red);
 }
 
-.card-img {
-    height: 275px;
-}
-
 .card-desktop-mobile .col-lg {
     padding-bottom: 2.5rem;
 }
