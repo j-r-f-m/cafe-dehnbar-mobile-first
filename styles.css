@@ -24,23 +24,22 @@ html {
 
 .navbar {
     background: var(--red);
-    height: 3rem;
 }
 
-.navbar-light .navbar-brand {
+.navbar-brand {
     color: var(--dark-red) !important;
 }
 
-.navbar-light .navbar-brand:hover {
-    color: var(--blue) !important;
+.navbar-brand:hover {
+    color: var(--green) !important;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     color: var(--dark-red) !important;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    color: var(--blue) !important;
+.navbar-nav .nav-link:hover {
+    color: var(--green) !important;
 }
 
 /* ================
@@ -50,10 +49,10 @@ html {
 #home {
     background-image: url("images/home_background.jpg");
     background-color: #cccccc;
-    height: calc(100vh - 3rem);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 
     display: flex;
@@ -61,32 +60,39 @@ html {
     justify-content: center;
 }
 
-.carousel {
-    /* control size of slidehow */
-    /* width: 55%; */
-    width: 60%;
-    /* center slideshow */
-    margin: auto;
-
+.carousel-item {
+    height: calc(100vh - 9.5rem);
+    border-radius: 4px;
 }
 
-.carousel-control-prev-icon {
-    color: #723A36;
+.carousel-item p {
+    color: var(--light-red);
+    background-color: var(--blue);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--light-red);
+}
+
+.first-slide {
+    background-image: url("images/what_we_offer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.second-slide {
+    background-image: url("images/who_we_are.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .img-carousel {
     width: 100%;
     object-fit: cover;
-}
-
-.carousel-caption {
-    position: relative;
-    left: 0;
-    top: 0;
-}
-
-.carousel-3-items {
-    height: 500px;
 }
 
 .centered-link {
@@ -99,9 +105,6 @@ html {
     padding: 0 2rem;
   }
 
-
-
-
 /* ================
     Layout Menu
     ================ */
@@ -113,20 +116,22 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
 .menu-drink-food {
     background-color: rgb(114, 96, 64, 0.5);
     color: var(--light-red);
-    height: 500px;
+    height: 31.25rem;
+    border-radius: 4px;
 }
 
 #text-for-drink-menu {}
 
 .coffee {
     background-image: url("images/coffee.jpg");
-    height: 500px;
+    height: 31.25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +140,7 @@ html {
 
 .food {
     background-image: url("images/coffee.jpg");
-    height: 500px;
+    height: 31.25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,6 +158,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -163,6 +169,22 @@ html {
     cursor: pointer;
     overflow: hidden;
     color: var(--light-red);
+}
+
+.card-img {
+    height: 275px;
+}
+
+.card-desktop-mobile .col-lg {
+    padding-bottom: 2.5rem;
+}
+
+.card-desktop-mobile .distance-between {
+    padding-bottom: 1.5rem;
+}
+
+.card-desktop-mobile .distance-bottom {
+    padding-bottom: 3rem;
 }
 
 .card:hover {
@@ -202,17 +224,18 @@ html {
 
 footer {
     background-color: var(--red);
-    height: 50px;
+    height: inherit;
     color: var(--dark-red);
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1rem 0rem 1rem;
 }
 
 footer a {
     color: var(--dark-red);
+    text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--blue);
+    color: var(--green);
     text-decoration: none;
 }
 
