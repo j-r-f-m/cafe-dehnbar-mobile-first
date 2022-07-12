@@ -82,6 +82,7 @@ html {
     background-color: rgb(114, 96, 64, 0.5);
     color: var(--light-red);
     height: 500px;
+    border-radius: 4px;
 }
 
 #text-for-drink-menu {}
@@ -164,9 +165,9 @@ html {
 
 footer {
     background-color: var(--red);
-    height: 50px;
+    height: inherit;
     color: var(--dark-red);
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 1rem 0rem 1rem;
 }
 
 footer a {
