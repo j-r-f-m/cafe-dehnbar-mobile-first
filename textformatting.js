@@ -12,16 +12,18 @@ var textForThirdSlide = 'Mithilfe eines durchdachten Licht- und Deko-Konzeptes s
 ' hinter und vor dem Tresen. Unter der überdachten und nach DIN-Norm zertifizierten Zeltfläche ist für circa 90 Personen Platz.'
 document.getElementById('text-for-third-slide').innerHTML = textForThirdSlide;
 
-var textForDrinkMenu = '<b>Heißgetränke</b><br>Espresso<br>Espresso, dopio<br>Cappuccino<br>Mandel, Hafer, Soja<br>Latte Macchiato<br>Café Crema<br>Heiße Schokolade<br>' +
-'Chai Latte (Vanille, Karamell, 2 Hausmischungen)<br>Chai Classic<br>Mate Classic<br>Ingwertee (Honig, Agavendicksaft, ungesüßt)<br>Diverse Tees (Kräuterbeet, Affentanz, Wachmacher, Schlafmütze)' +
-'<br><b>Drinks</b><br>Kaffeemartini<br>Liquid Cocaine<br>White Russian<br>Zimtnuss<br><b>Erfrischungen</b><br>Limonade (Hausgemacht: Limette, Minze, Thymian, Rosmarin)<br>' +
-'Eistee (Basic, Minze, Anis, Beeren)<br>Saftschorlen (Saftschorlen nach Angebot, Holunder-Zitrone)<br>"Vitalisierer" (Ingwer-Zimt, goldene Milch, Matcha-Kiwi, Guarana-Mandel)';
+var textForDrinkMenu = '<h3>Getränke</h3><hr><span style="text-transform:uppercase"><b>Heißgetränke</b></span><br>' +
+'Café, Espresso<br>Heiße Schokolade<br>Chai Latte<br><span style="font-size:10px">* alles kombiniert mit Mandel-, Hafer- oder Sojamilch</span><br>Diverse Tees<br>' +
+'<br><span style="text-transform:uppercase"><b>Alkoholische Getränke</b></span><br>Kaffeemartini, White Russian<br>Liquid Cocaine, Zimtnuss<br><br>' +
+'<span style="text-transform:uppercase"><b>Erfrischungen</b></span><br>Limonade<br>' +
+'Eistee<br>Saftschorlen<br>Smoothies<br>Vitalisierer';
 document.getElementById('text-for-drink-menu').innerHTML = textForDrinkMenu;
 
-var textForFoodMenu = '<b>Essen</b><br>Energy Ball (Brownie, Cookie-Dough, Matcha, Süß-Salzig)<br>Crêpes süß' +
-'(Schoko-Haselnuss Mus, Erdnussmus, Beeren, Spekulatius, Dattelcreme, Puderzucker, Apfelmus, (Toppings: Obst, Nüsse)<br>' +
-'Crêpes herzhaft (Tomate-Rosmarin, Kürbis-Humus-Linsen, Rote Beete-Spinat-Walnuss, Karotte-Zucchini-Sonnenbl.Kerne (Toppings: Salat, Käse (vegan), Rucola))<br>' +
-'Müslivariationen (Morgens, nach Bedarf)<br>Smoothies (Mittags-abends, nach Bedarf)';
+var textForFoodMenu = '<h3>Essen</h3><hr><span style="text-transform:uppercase"><b>Energy Balls</b></span><br>Brownie, Cookie-Dough, Matcha, Süß-Salzig<br><br>' +
+'<span style="text-transform:uppercase"><b>Crêpes süß</b></span><br>Schoko-Haselnuss, Erdnussmus, Beeren, Spekulatius, Dattelcreme, Puderzucker, Apfelmus<br>' +
+'<span style="font-size:10px">* Toppings: Obst, Nüsse</span><br><br>' +
+'<span style="text-transform:uppercase"><b>Crêpes herzhaft</b></span><br>Tomate-Rosmarin, Kürbis-Humus-Linsen, Rote Beete-Spinat-Walnuss, Karotte-Zucchini-Sonnenblumenkerne<br>' +
+'<span style="font-size:10px">* Toppings: Salat, Käse (vegan), Rucola</span><br><br><span style="text-transform:uppercase"><b>Müslivariationen</b></span>';
 document.getElementById('text-for-food-menu').innerHTML = textForFoodMenu;
 
 var textForDome = "Als direkter Ansprechpartner für administrative Aufgaben wird er Dir den Kaffee Deiner Wahl zubereiten und Dich mit frechen Sprüchen bei Laune halten.";
