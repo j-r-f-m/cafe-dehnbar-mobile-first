@@ -67,7 +67,7 @@ html {
 
 .carousel-item p {
     color: var(--light-red);
-    background-color: rgb(114, 96, 64, 0.7);
+    background-color: rgb(114, 96, 64, 0.6);
     border-radius: 4px;
 }
 
@@ -76,7 +76,7 @@ html {
 }
 
 .first-slide {
-    background-image: url("images/what_we_offer.jpg");
+    background-image: url("images/tent.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,14 @@ html {
 .img-carousel {
     width: 100%;
     object-fit: cover;
+    height:  calc(100vh - 9.5rem);
 }
+
+@media only screen and (max-width: 600px) {
+    .img-carousel {
+        height: calc((100vh / 2) - 5.5rem);
+    }
+  }
 
 .centered-link {
     position: absolute;
@@ -122,13 +129,16 @@ html {
 }
 
 .menu-drink-food {
-    background-color: rgb(114, 96, 64, 0.5);
+    background-color: rgb(114, 96, 64, 0.6);
     color: var(--light-red);
     height: 31.25rem;
     border-radius: 4px;
+    text-align: center;
 }
 
-#text-for-drink-menu {}
+#text-for-drink-menu {
+    text-align: center;
+}
 
 .coffee {
     background-image: url("images/coffee.jpg");
@@ -140,7 +150,7 @@ html {
 }
 
 .food {
-    background-image: url("images/coffee.jpg");
+    background-image: url("images/crepe.jpg");
     height: 31.25rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -166,6 +176,7 @@ html {
 .card {
     border-radius: 4px;
     background: var(--green);
+    border-width: 0px;
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
     cursor: pointer;
     overflow: hidden;
