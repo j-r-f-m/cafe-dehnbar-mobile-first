@@ -8,15 +8,53 @@
     --dark-red: #723A36;
     --blue: #6195A8;
     --green: #726040;
+    --border-radius: 4px;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+main {
+    background-image: url("images/background.jpg");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parting-line {
+    color: var(--light-red);
+}
+
 /* ================
    Typography 
    ================ */
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.long-text {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
+    color: var(--light-red);
+    background-color: rgb(114, 96, 64, 0.6);
+    border-radius: var(--border-radius);
+
+    padding: 6px;
+}
 
 /* ================
    Navigation
@@ -46,29 +84,9 @@ html {
     Layout Home
     ================ */
 
-#home {
-    background-image: url("images/home_background.jpg");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .carousel-item {
     height: calc(100vh - 9.5rem);
-    border-radius: 4px;
-}
-
-.carousel-item p {
-    color: var(--light-red);
-    background-color: rgb(114, 96, 64, 0.6);
-    border-radius: 4px;
+    border-radius: var(--border-radius);
 }
 
 .carousel-indicators [data-bs-target] {
@@ -84,6 +102,14 @@ html {
 }
 
 .second-slide {
+    background-image: url("images/grass.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.third-slide {
     background-image: url("images/who_we_are.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -94,46 +120,26 @@ html {
 .img-carousel {
     width: 100%;
     object-fit: cover;
-    height:  calc(100vh - 9.5rem);
+    height: calc(100vh - 9.5rem);
 }
 
 @media only screen and (max-width: 600px) {
     .img-carousel {
         height: calc((100vh / 2) - 5.5rem);
     }
-  }
-
-.centered-link {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    font-size: 2rem;
-    padding: 0 2rem;
-  }
+}
 
 /* ================
     Layout Menu
     ================ */
 
-#menu {
-    background-image: url("images/menu_background.jpg");
-    background-color: #cccccc;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
 .menu-drink-food {
     background-color: rgb(114, 96, 64, 0.6);
     color: var(--light-red);
     height: 31.25rem;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     text-align: center;
+    padding-top: 1.25rem;
 }
 
 #text-for-drink-menu {
@@ -147,6 +153,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border-radius: var(--border-radius);
 }
 
 .food {
@@ -156,25 +163,15 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border-radius: var(--border-radius);
 }
 
 /* ================
     Layout Team
     ================ */
 
-#team {
-    background-image: url("images/team_background.jpg");
-    background-color: #cccccc;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
 .card {
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     background: var(--green);
     border-width: 0px;
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
@@ -204,7 +201,13 @@ html {
     transition: transform 0.18s ease-in;
 }
 
-.card-img-overlay .card-text, .card-img-overlay .card-title {
+.card-title {
+    font-weight: 600;
+    font-size: larger;
+}
+
+.card-img-overlay .long-text,
+.card-img-overlay .card-title {
     opacity: 0;
     transform: translateY(-6rem);
     transition: opacity 0.05s ease-in, transform 0.25s ease-in;
@@ -220,10 +223,46 @@ html {
     background-color: rgb(114, 96, 64, 0.5);
 }
 
-.card:hover .card-text, .card:hover .card-title {
+.card:hover .long-text,
+.card:hover .card-title {
     opacity: 1;
     transform: translateX(0);
     transition: opacity 0.5s ease-out, transform 0.2s ease-out;
+}
+
+/* ================
+    Layout Info
+    ================ */
+
+.tent {
+    background-image: url("images/tent.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: var(--border-radius);
+}
+
+.bar {
+    background-image: url("images/bar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+}
+
+.coffee-beans {
+    background-image: url("images/coffee-beans.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
 }
 
 /* ================

@@ -1,22 +1,22 @@
-var textForFirstSlide = 'Bei Hochzeiten orientieren wir uns gerne an den jeweiligen Wünschen des Brautpaares. Mithilfe eines 96qm² großen Stretch' +
-'-Zeltes und einer modularen Küche ist das flexible Konzept an unterschiedlichen Orten einsetzbar. Waldlichtung, Wiese oder Garten –' +
-' wir machen Ihr Event zu einem unvergesslichen!'
+var textForFirstSlide = 'Unser Ziel ist es, das nächste Festival zum Leuchten zu bringen. Mithilfe unseres durchdachten Licht- und Deko-Konzeptes sorgen wir für eine' +
+' Wohlfühlatmosphäre. Wir haben Platz für ca. 90 Personen, die wir mit unserem Angebot aus veganen Speisen und Kaffeespezialitäten verköstigen. Mit unserer flexibel' +
+' gestaltbaren Inneneinrichtung können wir jeden Platz auf dem Festival einnehmen.'
 document.getElementById('text-for-first-slide').innerHTML = textForFirstSlide;
 
-var textForSecondSlide = 'Wir sind keine gelernten Köche, Konditoren oder Baristas, sondern wir haben uns mit viel Herzblut' +
-' und Experimentierfreude alles selbst angeeignet. Als mobiles Café bieten wir vegane Speisen sowie Kaffeespezialitäten auf Festivals' +
-' und privaten Feiern an.'
+var textForSecondSlide = 'Du wolltest schon immer auf einer grünen Wiese deiner Wahl heiraten? Oder du hast einen besonderen Geburtstag, den du mit all deinen Freunden' +
+' unkompliziert verbringen möchtest? Dann bieten wir dir genau das Richtige. Wir können mit unserem rundum sorglos Paket dein Fest unvergesslich machen.' +
+' Gerne kannst du aber auch dein Paket zu deinen Wünschen schnüren.'
 document.getElementById('text-for-second-slide').innerHTML = textForSecondSlide;
 
-var textForThirdSlide = 'Mithilfe eines durchdachten Licht- und Deko-Konzeptes sorgen für die eine Wohlfühlatmosphäre' +
-' hinter und vor dem Tresen. Unter der überdachten und nach DIN-Norm zertifizierten Zeltfläche ist für circa 90 Personen Platz.'
+var textForThirdSlide = 'Wir sind ein gut aufgestelltes Team aus vier Personen. Mit unserer stetigen Leidenschaft neue vegane Trends zu verfolgen und nachhaltige' +
+' Produkte zu entwickeln, bringen wir ... '
 document.getElementById('text-for-third-slide').innerHTML = textForThirdSlide;
 
 var textForDrinkMenu = '<h3>Getränke</h3><hr><span style="text-transform:uppercase"><b>Heißgetränke</b></span><br>' +
 'Café, Espresso<br>Heiße Schokolade<br>Chai Latte<br><span style="font-size:10px">* alles kombiniert mit Mandel-, Hafer- oder Sojamilch</span><br>Diverse Tees<br>' +
 '<br><span style="text-transform:uppercase"><b>Alkoholische Getränke</b></span><br>Kaffeemartini, White Russian<br>Liquid Cocaine, Zimtnuss<br><br>' +
 '<span style="text-transform:uppercase"><b>Erfrischungen</b></span><br>Limonade<br>' +
-'Eistee<br>Saftschorlen<br>Smoothies<br>Vitalisierer';
+'Eistee<br>Saftschorlen<br>Smoothies<br>"Vitalisierer"';
 document.getElementById('text-for-drink-menu').innerHTML = textForDrinkMenu;
 
 var textForFoodMenu = '<h3>Essen</h3><hr><span style="text-transform:uppercase"><b>Energy Balls</b></span><br>Brownie, Cookie-Dough, Matcha, Süß-Salzig<br><br>' +
@@ -37,3 +37,13 @@ document.getElementById('text-for-shukky').innerHTML = textForShukky;
 
 var textForKatti = "Als „Küchenchefin“ sieht sie die Freiheit, Dinge auszuprobieren und neue kulinarische, vegane Leckereien aus dem Hut zu zaubern, als Teil ihres kreativen Schaffensprozesses.";
 document.getElementById('text-for-katti').innerHTML = textForKatti;
+
+var textForTent = "Informationen<ul><li>96qm2 Fläche mit Xm Breite und Xm Länge</li><li>Platz für ca. 90 Personen</li><li>...</li></ul>";
+document.getElementById('text-for-tent').innerHTML = textForTent;
+
+var textForBar = "Die Bar ist aus Eiche, die aus dem Umland kommt blablabla <a href='https://goo.gl/maps/MjLudUd1PFokeNfy7' target='_blank'>Link</a><br>xyz<br>xyz<br>xyz<br>xyz";
+document.getElementById('text-for-bar').innerHTML = textForBar;
+
+var textForCoffeeBeans = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
+document.getElementById('text-for-coffee-beans').innerHTML = textForCoffeeBeans;
+
