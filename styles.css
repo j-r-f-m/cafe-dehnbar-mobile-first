@@ -212,7 +212,7 @@ body {
 }
 
 .card-img-overlay {
-    transform: translateY(13rem);
+    transform: translateY(30rem);
     transition: transform 0.18s ease-in;
 }
 
