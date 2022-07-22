@@ -31,12 +31,14 @@ html {
 }
 
 .parting-line {
-    background-color: var(--light-red);
+    background: var(--light-red);
     width: 35%;
     margin-left: auto;
     margin-right: auto;
     height: 3px;
-    border: var(--border-radius);
+    border-radius: var(--border-radius);
+    opacity: 0.5;
+    border: none;
 }
 
 a {
@@ -98,8 +100,29 @@ body {
 }
 
 /* ================
+    Layout Logo
+    ================ */
+
+.logo {
+    background-image: url("images/typo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh - 9.5rem);
+    width: 50%;
+}
+
+/* ================
     Layout Home
     ================ */
+
+.carousel-images {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .carousel-item {
     height: calc(100vh - 9.5rem);
@@ -112,26 +135,14 @@ body {
 
 .first-slide {
     background-image: url("images/tent.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .second-slide {
     background-image: url("images/grass.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .third-slide {
     background-image: url("images/who_we_are.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .img-carousel {
@@ -249,35 +260,26 @@ body {
     Layout Info
     ================ */
 
-.tent {
-    background-image: url("images/tent.jpg");
+.picture-info {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
     border-radius: var(--border-radius);
+    min-height: 10rem;
+}
+
+.tent {
+    background-image: url("images/tent.jpg"); 
 }
 
 .bar {
     background-image: url("images/bar.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-    border-radius: var(--border-radius);
-    margin-top: 1rem;
 }
 
 .coffee-beans {
     background-image: url("images/coffee-beans.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
-    border-radius: var(--border-radius);
-    margin-top: 1rem;
 }
 
 /* ================
