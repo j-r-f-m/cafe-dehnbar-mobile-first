@@ -1,0 +1,14 @@
+main {
+    background-image: url("../images/background_sub_pages.jpg");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
