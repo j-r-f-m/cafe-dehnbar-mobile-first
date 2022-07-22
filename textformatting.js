@@ -1,15 +1,17 @@
 var textForFirstSlide = 'Unser Ziel ist es, das nächste Festival zum Leuchten zu bringen. Mithilfe unseres durchdachten Licht- und Deko-Konzeptes sorgen wir für eine' +
 ' Wohlfühlatmosphäre. Wir haben Platz für ca. 90 Personen, die wir mit unserem Angebot aus veganen Speisen und Kaffeespezialitäten verköstigen. Mit unserer flexibel' +
-' gestaltbaren Inneneinrichtung können wir jeden Platz auf dem Festival einnehmen.'
+' gestaltbaren Inneneinrichtung können wir jeden Platz auf einem Festival einnehmen.'
 document.getElementById('text-for-first-slide').innerHTML = textForFirstSlide;
 
 var textForSecondSlide = 'Du wolltest schon immer auf einer grünen Wiese deiner Wahl heiraten? Oder du hast einen besonderen Geburtstag, den du mit all deinen Freunden' +
-' unkompliziert verbringen möchtest? Dann bieten wir dir genau das Richtige. Wir können mit unserem rundum sorglos Paket dein Fest unvergesslich machen.' +
-' Gerne kannst du aber auch dein Paket zu deinen Wünschen schnüren.'
+' unkompliziert verbringen möchtest? Dann bieten wir dir genau das Richtige. Wir können mit unserem rundum sorglos Paket bestehend aus Zelt, Inneneinrichtung, Speisen und Getränken' +
+' dein Fest unvergesslich machen. Gerne kannst du aber auch dein Paket zu deinen Wünschen schnüren.'
 document.getElementById('text-for-second-slide').innerHTML = textForSecondSlide;
 
-var textForThirdSlide = 'Wir sind ein gut aufgestelltes Team aus vier Personen. Mit unserer stetigen Leidenschaft neue vegane Trends zu verfolgen und nachhaltige' +
-' Produkte zu entwickeln, bringen wir ... '
+var textForThirdSlide = 'Mit unserer stetigen Leidenschaft neue vegane Trends zu verfolgen und nachhaltige Produkte zu entwickeln, bringen wir immer wieder frischen' +
+' Wind in unsere Bar. Jeder von uns bringt sein individuelles Wissen und seine Begeisterung ein. Durch ein absolutes' +
+' Organisationstalent gepaart mit gesundem Ehrgeiz, die Naturliebe widerzufinden in jedem Stück Holz, den Blick auf das Schöne festgehalten in Bildern oder die Präzision in' +
+' der Auswahl der nachhaltigsten Produkte, ergänzen wir uns zu einem unschlagbaren Team aus vier Personen.'
 document.getElementById('text-for-third-slide').innerHTML = textForThirdSlide;
 
 var textForDrinkMenu = '<h3>Getränke</h3><hr><span style="text-transform:uppercase"><b>Heißgetränke</b></span><br>' +
