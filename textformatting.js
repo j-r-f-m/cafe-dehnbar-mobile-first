@@ -1,18 +1,19 @@
-var textForFirstSlide = 'Unser Ziel ist es, das nächste Festival zum Leuchten zu bringen. Mithilfe unseres durchdachten Licht- und Deko-Konzeptes sorgen wir für eine' +
-' Wohlfühlatmosphäre. Wir haben Platz für ca. 90 Personen, die wir mit unserem Angebot aus veganen Speisen und Kaffeespezialitäten verköstigen. Mit unserer flexibel' +
-' gestaltbaren Inneneinrichtung können wir jeden Platz auf einem Festival einnehmen.'
+var textForFirstSlide = 'Wir bringen Festivals, private Feiern und Hochzeiten zum Leuchten!'
 document.getElementById('text-for-first-slide').innerHTML = textForFirstSlide;
 
-var textForSecondSlide = 'Du wolltest schon immer auf einer grünen Wiese deiner Wahl heiraten? Oder du hast einen besonderen Geburtstag, den du mit all deinen Freunden' +
-' unkompliziert verbringen möchtest? Dann bieten wir dir genau das Richtige. Wir können mit unserem rundum sorglos Paket bestehend aus Zelt, Inneneinrichtung, Speisen und Getränken' +
-' dein Fest unvergesslich machen. Gerne kannst du aber auch dein Paket zu deinen Wünschen schnüren.'
+var textForSecondSlide = "Barfuß auf der Wiese heiraten? Ein besonderer Geburtstag? Auch Zeit für die Gäste haben? Gerne schnüren wir mit Dir ein " +
+"Sorglos-Paket und kümmern uns um die Umsetzung!"
 document.getElementById('text-for-second-slide').innerHTML = textForSecondSlide;
 
-var textForThirdSlide = 'Mit unserer stetigen Leidenschaft neue vegane Trends zu verfolgen und nachhaltige Produkte zu entwickeln, bringen wir immer wieder frischen' +
-' Wind in unsere Bar. Jeder von uns bringt sein individuelles Wissen und seine Begeisterung ein. Durch ein absolutes' +
-' Organisationstalent gepaart mit gesundem Ehrgeiz, die Naturliebe widerzufinden in jedem Stück Holz, den Blick auf das Schöne festgehalten in Bildern oder die Präzision in' +
-' der Auswahl der nachhaltigsten Produkte, ergänzen wir uns zu einem unschlagbaren Team aus vier Personen.'
+var textForThirdSlide = 'Das homogene Lichtkonzept besticht durch Naturmaterialen und ist stufenlos dimmbar!'
 document.getElementById('text-for-third-slide').innerHTML = textForThirdSlide;
+
+var textForFourthSlide = '100 % vegan. Unsere regionalen Produkte verarbeiten vor Ort frisch und mit viel Liebe zu echten Gaumenschmeichlern.'
+document.getElementById('text-for-fourth-slide').innerHTML = textForFourthSlide;
+
+var textForFifthSlide = 'Mit Freunden zur Lieblingsmusik tanzen? Ob Alm Wiese, Garten oder Off-Location, wir finden einen Weg, Deine Träume ' +
+'in die Realität umzusetzen.'
+document.getElementById('text-for-fifth-slide').innerHTML = textForFifthSlide;
 
 var textForDrinkMenu = '<h3>Getränke</h3><hr><span style="text-transform:uppercase"><b>Heißgetränke</b></span><br>' +
 'Café, Espresso<br>Heiße Schokolade<br>Chai Latte<br><span style="font-size:10px">* alles kombiniert mit Mandel-, Hafer- oder Sojamilch</span><br>Diverse Tees<br>' +
@@ -28,16 +29,20 @@ var textForFoodMenu = '<h3>Essen</h3><hr><span style="text-transform:uppercase">
 '<span style="font-size:10px">* Toppings: Salat, Käse (vegan), Rucola</span><br><br><span style="text-transform:uppercase"><b>Müslivariationen</b></span>';
 document.getElementById('text-for-food-menu').innerHTML = textForFoodMenu;
 
-var textForDome = "Als direkter Ansprechpartner für administrative Aufgaben wird er Dir den Kaffee Deiner Wahl zubereiten und Dich mit frechen Sprüchen bei Laune halten.";
+var textForDome = "...möchte Räume für Kreativität und Entspannung kreieren. Nach dem Motto “lieber die Zukunft unterstützen als die Vergangenheit neu " +
+"aufbauen“ hat er das Projekt ins Leben gerufen.";
 document.getElementById('text-for-dome').innerHTML = textForDome;
 
-var textForDaniel = "Der stets gut gelaunte Holzwurm erläutert Dir unsere technischen Systeme und findet effektive sowie wirkungsvolle Lösungen für etwaige Probleme.";
+var textForDaniel = "...hat ein ausgezeichnetes Gespür für die Geschenke der Natur und hat am liebsten Holz unter den Fingern. Er erzählt Dir gerne mehr über " +
+"die Entstehungsgeschichte der Bar und unsere technischen Systeme.";
 document.getElementById('text-for-daniel').innerHTML = textForDaniel;
 
-var textForShukky = "Seine Begeisterung für Kaffeespezialitäten wird nur durch das wahrlich gute Auge für die Erstellung, Bearbeitung und Verwaltung von multimedialen Inhalten übertroffen.";
-document.getElementById('text-for-shukky').innerHTML = textForShukky;
+var textForSchukky = "...ist unser Ruhepol, der mit viel Liebe zum Detail arbeitet und unseren kreativen Content erstellt. Hinter der Bar oder hinter der Kamera " +
+"hält er mit seinem aufmerksamen Blick für wertvolle Momente, auch Dein Event fotografisch fest.";
+document.getElementById('text-for-schukky').innerHTML = textForSchukky;
 
-var textForKatti = "Als „Küchenchefin“ sieht sie die Freiheit, Dinge auszuprobieren und neue kulinarische, vegane Leckereien aus dem Hut zu zaubern, als Teil ihres kreativen Schaffensprozesses.";
+var textForKatti = "...lebt sich gern kreativ in der Küche aus, legt großen Wert auf Herkunft von Produkten und Zutaten und bringt bunte Vielfalt in unsere " +
+"veganen Rezepturen.";
 document.getElementById('text-for-katti').innerHTML = textForKatti;
 
 var textForTent = "Informationen<ul><li>96qm2 Fläche mit Xm Breite und Xm Länge</li><li>Platz für ca. 90 Personen</li><li>...</li></ul>";
