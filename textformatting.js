@@ -15,18 +15,37 @@ var textForFifthSlide = 'Mit Freunden zur Lieblingsmusik tanzen? Ob Alm Wiese, G
 'in die Realität umzusetzen.'
 document.getElementById('text-for-fifth-slide').innerHTML = textForFifthSlide;
 
-var textForDrinkMenu = '<h3>Getränke</h3><hr><span style="text-transform:uppercase"><b>Heißgetränke</b></span><br>' +
-'Café, Espresso<br>Heiße Schokolade<br>Chai Latte<br><span style="font-size:10px">* alles kombiniert mit Mandel-, Hafer- oder Sojamilch</span><br>Diverse Tees<br>' +
-'<br><span style="text-transform:uppercase"><b>Alkoholische Getränke</b></span><br>Kaffeemartini, White Russian<br>Liquid Cocaine, Zimtnuss<br><br>' +
-'<span style="text-transform:uppercase"><b>Erfrischungen</b></span><br>Limonade<br>' +
-'Eistee<br>Saftschorlen<br>Smoothies<br>"Vitalisierer"';
+var textForDrinkMenu = '<hr><h6>HEISSGETRÄNKE</h6><hr>' +
+'<span class="menu-name"><b>Café</b></span> Espresso, Café Crema, Cappuccino, Milchkaffee<br><br>' +
+'<span class="menu-name"><b>Chai</b></span> Chai Latte, Chai Classic, Dirty Chai<br><br>' +
+'<span class="menu-name"><b>Tee</b></span> Kräutermischungen, Black Assam Tee<br><br>' +
+'<span class="menu-name"><b>Sweet</b></span> Affogato, Heiße Schokolade' +
+'<hr><h6>KALTGETRÄNKE</h6><hr>' +
+'<span class="menu-name"><b>Energydrink</b></span> WAYSA White Apple - Bio Guayusa<br><br>' +
+'<span class="menu-name"><b>Saft</b></span> Apfel-Ingwer, Apfel-Möhre, Paradies-Mehrfrucht<br><br>' +
+'<span class="menu-name"><b>Schorlen</b></span> Apfel-Kirsch, Apfel-Minze, Apfel-Rhabarber<br><br>' +
+'<span class="menu-name"><b>Eistee</b></span> Pfirsich, Eistee' +
+'<hr><h6>ALKOHOLISCHE GETRÄNKE</h6><hr>' +
+'<span class="menu-name"><b>Cocktails</b></span> Espresso-Martini, Liquid Cocaine, White Russian<br><br>' +
+'<span class="menu-name"><b>Schnapserl</b></span> Zimtnüsslein<br><br>' +
+'<span class="toppings">* Wahl aus Hafer- oder Sojamilch</span>';
 document.getElementById('text-for-drink-menu').innerHTML = textForDrinkMenu;
 
-var textForFoodMenu = '<h3>Essen</h3><hr><span style="text-transform:uppercase"><b>Energy Balls</b></span><br>Brownie, Cookie-Dough, Matcha, Süß-Salzig<br><br>' +
-'<span style="text-transform:uppercase"><b>Crêpes süß</b></span><br>Schoko-Haselnuss, Erdnussmus, Beeren, Spekulatius, Dattelcreme, Puderzucker, Apfelmus<br>' +
-'<span style="font-size:10px">* Toppings: Obst, Nüsse</span><br><br>' +
-'<span style="text-transform:uppercase"><b>Crêpes herzhaft</b></span><br>Tomate-Rosmarin, Kürbis-Humus-Linsen, Rote Beete-Spinat-Walnuss, Karotte-Zucchini-Sonnenblumenkerne<br>' +
-'<span style="font-size:10px">* Toppings: Salat, Käse (vegan), Rucola</span><br><br><span style="text-transform:uppercase"><b>Müslivariationen</b></span>';
+var textForFoodMenu = '<hr><h6>VEGANE CRÊPES. HERZHAFT</h6><hr>' +
+'<span class="menu-name"><b>Raw</b></span> mit Rote-Beete, Spinat und Karotte<br>' +
+'<span class="toppings">Toppings: Cashew-Koriander Chutney, Hummus, Meerrettich</span><br><br>' +
+'<span class="menu-name"><b>Grilled</b></span> mit gegrilltem Gemüse und Belugalinsen<br>' +
+'<span class="toppings">Toppings: Chimichurri, Hummus</span><br><br>' +
+'<span class="menu-name"><b>Tex Mex</b></span> mit scharfer Tex-Mex Bolognese und frischem Salat<br>' +
+'<span class="toppings">Toppings: Nachos, Chilisauce</span>' +
+'<hr><h6>VEGANE CRÊPES. SÜSS</h6><hr>' +
+'<span class="menu-name"><b>Last Christmas</b></span> mit Spekulatius-Aufstrich, Bananen, Mandeln und Haselnuss<br><br>' +
+'<span class="menu-name"><b>Classic</b></span> mit Schokocreme und Bananen<br><br>' +
+'<span class="menu-name"><b>Crepple</b></span> mit Apfelmark und Zimt-Zucker<br><br>' +
+'<span class="menu-name"><b>Coco Nuts</b></span> mit Haselnussmus, Kokosraspeln und Heidelbeeren' +
+'<hr><h6>ENERGYBALLS AUF DATTELBASIS</h6><hr>' +
+'<span class="menu-name"><b>Brownie</b></span> klassisch schokoladig mit Walnuss<br><br>' +
+'<span class="menu-name"><b>Roasted Orange</b></span> ???<br>'
 document.getElementById('text-for-food-menu').innerHTML = textForFoodMenu;
 
 var textForDome = "...möchte Räume für Kreativität und Entspannung kreieren. Nach dem Motto “lieber die Zukunft unterstützen als die Vergangenheit neu " +
@@ -45,15 +64,27 @@ var textForKatti = "...lebt sich gern kreativ in der Küche aus, legt großen We
 "veganen Rezepturen.";
 document.getElementById('text-for-katti').innerHTML = textForKatti;
 
-var textForTent = "Informationen<ul><li>96qm2 Fläche mit Xm Breite und Xm Länge</li><li>Platz für ca. 90 Personen</li><li>...</li></ul>";
+var textForTent = "Eckdaten<ul><li>8x12x4,5m (LxBxH) Stretch-Zelt <a href='https://www.eurostretchtents.de/' target='_blank'>(https://www.eurostretchtents.de/)</a></li>" +
+"<li>Strom: 230V; pro Tag u. Nacht circa 80kwH; Spitze 6500W</li>" +
+"<li>Wasser: Festwasseranschluss oder IBC-Container (Aufpreis & Haftungsausschluss)</li>" +
+"<li>Sitz- und Liegemöglichkeiten inklusive Beistelltischen für circa 60 Personen</li>" +
+"<li>im Außenbereich erweiterbar; Überdachte Fläche 96qm²</li>" +
+"<li>Platz für ca. 90 Personen</li></ul>";
 document.getElementById('text-for-tent').innerHTML = textForTent;
 
-var textForBar = "Die Bar ist aus Eiche, die aus dem Umland kommt blablabla <a href='https://goo.gl/maps/MjLudUd1PFokeNfy7' target='_blank'>Link</a><br>xyz<br>xyz<br>xyz<br>xyz";
+var textForBar = "Aus Holz gebaut<ul><li>Der Barbereich und weite Teile der Beleuchtung sind aus Eiche. Mit viel Hingabe haben wir der, im Umland gefällten Eiche neues Leben eingehaucht.</li>" +
+"<li>Die Eiche ist ein echter Superheld in Sachen Gastfreundschaft: Er beherbergt 179 Großschmetterlingsarten, über 500 holzbesiedelnde Käfer und etwa 500 weitere Arten.</li>" +
+"<li>Als Fahnenträger der Biodiversität hat uns die Eiche begeistert und darf nun Euch begeistern. <a href='https://goo.gl/maps/MjLudUd1PFokeNfy7' target='_blank'>Link</a></li></ul>";
 document.getElementById('text-for-bar').innerHTML = textForBar;
 
-var textForCoffeeBeans = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
+var textForCoffeeBeans = "Zusatzinformationen<ul><li>Fläche: min. 10x15 m (Abspannbereich)</li>" +
+"<li>nur auf privat Gelände</li>" + 
+"<li>Sanitäre-Anlagen: 2 Kompost-Toiletten, 1 Hand Waschbecken</li>" +
+"<li>Bei großen Veranstaltungen arbeiten wir mit Cateringunternehmen zusammen</li>" +
+"<li>Pflanze einen Baum!</li></ul>";
 document.getElementById('text-for-coffee-beans').innerHTML = textForCoffeeBeans;
 
-var textForImprint = "Ich bin das Impressum";
-document.getElementById('text-for-imprint').innerHTML = textForImprint;
+var textForSustainability = "Unsere Speisen und Getränke bereiten wir zu 100 % vegan und frisch zu. Wir benutzen vorwiegend Bio-Produkte und achten hierbei auf Regionalität." +
+" Grundsätzlich versuchen wir alle unsere Entscheidungen im Sinne der Nachhaltigkeit zu treffen.";
+document.getElementById('text-for-sustainability').innerHTML = textForSustainability;
 

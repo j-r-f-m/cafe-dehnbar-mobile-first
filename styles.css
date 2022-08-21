@@ -3,11 +3,12 @@
    ================ */
 
 :root {
-    --light-red: #BF9985;
+    --light-red: #F3CDBD;
     --orange: #BA732E;
     --light-green: #66826E;
     --blue: #0A2E36;
     --dark-green: #334F3B;
+    --text-field: rgb(51, 79, 59, 0.8);
     --border-radius: 4px;
 }
 
@@ -42,6 +43,10 @@ html {
 }
 
 a {
+    color: var(--orange);
+}
+
+a:hover {
     color: var(--blue);
 }
 
@@ -58,21 +63,25 @@ body {
 }
 
 .long-text {
-    font-family: 'neuzeit-grotesk', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
 
     color: var(--light-red);
-    background-color: rgb(51, 79, 59, 0.7);
+    background-color: var(--text-field);
     border-radius: var(--border-radius);
 
-    padding: 6px;
+    padding: 10px;
+
+    font-size: 14px;
 }
 
 .long-text-no-background {
-    font-family: 'neuzeit-grotesk', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
+
+    font-size: 14px;
 }
 
 /* ================
@@ -96,7 +105,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-    color: var(--dark-green) !important;
+    color: var(--blue) !important;
 }
 
 /* ================
@@ -112,12 +121,14 @@ body {
     position: relative;
 }
 
-.show-logo {
-    background-image: url("images/Logo/Logo_Cafe_Dehnbar_Final_17.png");
-    background-position: center;
+.navbar-logo {
+    background-image: url("images/Logo/Logo_Cafe_Dehnbar_Final_16.png");
+    height: 1.65rem;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-left: 0;
 }
 
 /* ================
@@ -177,11 +188,24 @@ body {
     ================ */
 
 .menu-drink-food {
-    background-color: rgb(51, 79, 59, 0.7);
-    height: 31.25rem;
+    background-color: var(--text-field);
+    height: 42rem;
     border-radius: var(--border-radius);
+    padding: 0 1.25rem 0 1.25rem;
+    font-size: 14px;
+}
+
+.menu-drink-food h6 {
     text-align: center;
-    padding-top: 1.25rem;
+}
+
+.menu-name {
+    font-style: italic;
+    color: var(--orange);
+}
+
+.toppings {
+    font-size: 12px;
 }
 
 #text-for-drink-menu {
@@ -190,7 +214,7 @@ body {
 
 .coffee {
     background-image: url("images/coffee.jpg");
-    height: 31.25rem;
+    height: 42rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +224,7 @@ body {
 
 .food {
     background-image: url("images/crepe.jpg");
-    height: 31.25rem;
+    height: 42rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,7 +285,7 @@ body {
 .card:hover .card-img-overlay {
     transform: translateY(0);
     transition: transform 0.25s ease-out;
-    background-color: rgb(51, 79, 59, 0.7);
+    background-color: var(--text-field);
 }
 
 .card:hover .long-text,

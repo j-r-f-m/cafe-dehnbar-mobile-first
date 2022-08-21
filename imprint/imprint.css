@@ -13,6 +13,6 @@ main {
     justify-content: center;
 }
 
-a {
-    color: var(--orange);
+h6 {
+    font-weight: bold;
 }

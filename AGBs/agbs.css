@@ -12,3 +12,7 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+
+h6 {
+    font-weight: bold;
+}
