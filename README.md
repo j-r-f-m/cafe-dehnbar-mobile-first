@@ -1,2 +1,1 @@
-# cafe-dehnbar-mobile-first
-
+Homepage für Café Dehnbar
